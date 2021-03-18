@@ -1,0 +1,3 @@
+#!/bin/sh
+#SBATCH --time=30
+srun python script_classter.py

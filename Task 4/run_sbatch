@@ -1,0 +1,3 @@
+export KMP_STACKSIZE=16m
+export OMP_NUM_THREADS=24
+sbatch -n 1 --ntasks-per-node=1 -p express job
